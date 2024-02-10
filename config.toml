@@ -11,7 +11,7 @@ $directory\
 $git_branch\
 $git_status\
 [ ](fg:#e44729)\
-"
+"""
 
 [username]
 show_always = true
