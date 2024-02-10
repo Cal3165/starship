@@ -2,7 +2,7 @@
 
 format = """
 [](fg:#0969da bg:#8250df)\
-$time
+$time\
 [](fg:#0969da bg:#0969da)\
 $username\
 [](fg:#0969da bg:#eac54f)\
