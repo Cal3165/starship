@@ -1,10 +1,10 @@
 #                                 
 
 format = """
-[](fg:#0969da bg:#8250df)\
 $time\
 [](fg:#0969da bg:#0969da)\
 $username\
+$hostname\
 [](fg:#0969da bg:#eac54f)\
 $directory\
 [](fg:#eac54f bg:#e44729)\
@@ -52,6 +52,7 @@ disabled = false
 
 [kubernetes]
 style = "fg:#ffffff bg:#326ce5"
+format = '[ on ﴱ ($user on )($cluster in )$context \($namespace\) ]($style)'
 disabled = true
 
 [gcloud]
@@ -115,7 +116,7 @@ disabled = false
 disabled = false
 time_format = "%R" # Hour:Minute Format
 style = "fg:#ffffff bg:#8250df"
-format = '[  $time ]($style)'
+format = '[ $time ]($style)'
 
 [cmd_duration]
 style = "fg:#000000 bg:yellow"
