@@ -122,6 +122,7 @@ format = '[ $time ]($style)'
 ssh_only = true
 format = '[@$hostname ]($style)'
 trim_at = '.companyname.com'
+style = "fg:#ffffff bg:#0969da"
 disabled = false
 
 [cmd_duration]
