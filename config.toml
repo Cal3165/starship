@@ -121,7 +121,7 @@ format = '[ $time ]($style)'
 [hostname]
 ssh_only = true
 format = '[@$hostname ]($style)'
-trim_at = '.companyname.com'
+trim_at = '.'
 style = "fg:#ffffff bg:#0969da"
 disabled = false
 
