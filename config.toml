@@ -119,7 +119,7 @@ style = "fg:#ffffff bg:#8250df"
 format = '[ $time ]($style)'
 
 [hostname]
-ssh_only = true
+ssh_only = false
 format = '[@$hostname ]($style)'
 trim_at = '.'
 style = "fg:#ffffff bg:#0969da"
