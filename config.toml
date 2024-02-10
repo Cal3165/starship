@@ -1,6 +1,8 @@
 #                                 
 
 format = """
+[](fg:#0969da bg:#8250df)\
+$time
 [](fg:#0969da bg:#0969da)\
 $username\
 [](fg:#0969da bg:#eac54f)\
@@ -9,14 +11,7 @@ $directory\
 $git_branch\
 $git_status\
 [ ](fg:#e44729)\
-"""
-
-right_format = """
-[](fg:#8250df)\
-$time\
-$all
-$character
-"""
+"
 
 [username]
 show_always = true
