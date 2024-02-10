@@ -17,7 +17,7 @@ $git_status\
 show_always = true
 style_user = "fg:#ffffff bg:#0969da"
 style_root = "fg:#ffffff bg:#0969da"
-format = '[$user ]($style)'
+format = '[$user]($style)'
 disabled = false
 
 [directory]
