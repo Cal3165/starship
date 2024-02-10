@@ -118,6 +118,12 @@ time_format = "%R" # Hour:Minute Format
 style = "fg:#ffffff bg:#8250df"
 format = '[ $time ]($style)'
 
+[hostname]
+ssh_only = true
+format = '[@$hostname ]($style)'
+trim_at = '.companyname.com'
+disabled = false
+
 [cmd_duration]
 style = "fg:#000000 bg:yellow"
 format = "[ took $duration ]($style)"
