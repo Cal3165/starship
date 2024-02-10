@@ -58,7 +58,7 @@ disabled = false
 [kubernetes]
 style = "fg:#ffffff bg:#326ce5"
 format = '[ on ﴱ ($user on )($cluster in )$context \($namespace\) ]($style)'
-disabled = false
+disabled = true
 
 [gcloud]
 symbol = " "
